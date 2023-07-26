@@ -1,3 +1,4 @@
+#!/bin/bash
 apt install -y apache2 php7.2 php7.2-cgi libapache2-mod-php7.2 php7.2-mbstring php7.2-common php7.2-xml php-pear php7.2-ldap
 a2enconf php7.2-cgi
 
